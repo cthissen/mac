@@ -12,6 +12,11 @@
 - **File Sharing >** Off
 - **Users & Groups > Login Items >** Spectacle, Flux
 
+### Disable Game center deamon
+```shell
+defaults write com.apple.gamed Disabled -bool true
+```
+
 ### Show Library folder
 
 ```shell

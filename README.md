@@ -68,30 +68,32 @@ touch Brewfile
 ```
 
 ```shell
+# to run: brew bundle install 
 tap 'caskroom/cask'
+tap 'caskroom/fonts'
 
-brew 'git'
-brew 'node'
-brew 'npm'
+'rsync'
 
-cask 'brackets'
 cask 'flux'
 cask 'firefox'
-cask 'gimp'
 cask 'google-chrome'
-cask 'opera'
-cask 'spectacle'
-cask 'sequel-pro'
-cask 'utorrent'
-cask 'vlc'
+cask 'google-drive'
+cask 'font-inconsolata'
+cask '1password'
+cask 'dropbox'
+cask 'spotify'
+cask 'skype'
 
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
 mas 'Slack', id: 803453959
 mas 'Sip', id: 507257563 
-mas 'Simplenote', id: 692867256 
-mas 'Todoist', id: 585829637
 ```
+
+## Python
+pip install virtualenv
+pip install virtualenvwrapper
+export WORKON_HOME=~/Envs
+source /usr/local/bin/virtualenvwrapper.sh
+pip install ipython
 
 ## GitHub
 
